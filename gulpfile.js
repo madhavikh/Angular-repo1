@@ -6,8 +6,8 @@ var mocha = require('gulp-mocha');
 var sonar=require('gulp-sonar');
 var util = require('util');
 var gulp = require('gulp'),
-    nightwatch = require('gulp-nightwatch');
-//var nightwatch=require('gulp-nightwatch');
+    //nightwatch = require('gulp-nightwatch');
+var nightwatch=require('nightwatch');
  
 gulp.task('run', function(){
     nodemon({
